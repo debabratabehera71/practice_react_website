@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
 
+$brand-clr: #565387;
+
+
 *{
   margin: 0;
   padding: 0;
@@ -15,7 +18,7 @@
 
 .navbar-brand{
   font-size: 1.9rem !important;
-  color: #565387 !important;
+  color: $brand-clr !important;
 }
 
 .navbar-brand .img-brand{
@@ -30,7 +33,7 @@
 }
 .menu-active{
   font-weight: bold;
-  border-bottom: 1px solid #565387;
+  border-bottom: 1px solid $brand-clr;
 }
 
 .navbar a:hover{
